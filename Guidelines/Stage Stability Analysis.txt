@@ -1,0 +1,67 @@
+Stage — Stability Analysis
+
+Goal:
+
+Find which equilibrium points are stable.
+Equilibrium shows possible states, but stability shows which state the system will actually reach.
+
+This stage is needed to compare phase 1 and phase 2 and detect regime shift.
+
+Model:
+
+dx/dt = r1 * x * (1 - (x + y)/K) - alpha * x * y
+dy/dt = r2 * y * (1 - (x + y)/K) - beta * x * y
+
+Task 1 — Write functions
+
+Let
+
+f(x,y) = dx/dt
+g(x,y) = dy/dt
+
+Task 2 — Compute Jacobian
+
+Find partial derivatives:
+
+∂f/∂x
+∂f/∂y
+∂g/∂x
+∂g/∂y
+
+Write Jacobian matrix.
+
+Task 3 — Evaluate at equilibrium
+
+Substitute equilibrium points found earlier.
+
+Task 4 — Use parameters
+
+Use parameters from
+
+* phase 1
+* phase 2
+
+Compute Jacobian for both.
+
+Task 5 — Find eigenvalues
+
+Find eigenvalues of Jacobian.
+
+Interpret:
+
+* negative → stable
+* positive → unstable
+
+Task 6 — Compare phases
+
+Check if stability changes between phases.
+
+This will be used to detect regime shift.
+
+Output of this stage:
+
+* Jacobian matrix
+* eigenvalues
+* stability result for each phase
+* short explanation
+

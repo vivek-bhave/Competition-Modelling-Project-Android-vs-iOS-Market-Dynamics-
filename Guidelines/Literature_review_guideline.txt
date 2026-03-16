@@ -1,0 +1,52 @@
+We are starting the Literature Review stage of our modelling project.
+
+Before moving to the next stages, we need to understand what work has already been done in this area.
+This will help us justify our model, understand limitations of previous studies, and explain why our work is needed.
+
+Each person should search for research papers related to:
+
+* competition models
+* Lotka–Volterra / nonlinear models
+* technology / market share / diffusion
+* smartphone / platform competition
+* prediction / forecasting models
+* recent papers (preferably after 2018)
+
+While reading papers, try to answer these questions:
+
+1. What different models are used in economics / technology competition?
+2. What exactly did the paper study?
+3. What are the limitations of that work?
+4. What future work did the authors suggest?
+5. How does our project overlap with that work?
+6. Why is our model or study still needed?
+
+For each paper, write the summary in the following format:
+
+Paper title:
+Year:
+Problem studied:
+Model used:
+Data used:
+Main result:
+Limitation:
+Future work:
+Relation to our project:
+
+Important rules:
+
+* Do not copy abstract directly
+* Write in your own words
+* Focus on understanding the model and idea
+* Prefer recent papers (last 5–6 years if possible)
+* Each person should find 1–2 good papers
+
+Goal of this stage:
+
+After literature review, we should be able to explain:
+
+* what has already been done
+* what is missing
+* why our work is needed
+* why we chose this model
+

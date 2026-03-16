@@ -1,0 +1,71 @@
+Model Justification Guidelines
+
+Goal of this stage:
+
+We must justify why we use a nonlinear competition model instead of other models.
+Before fitting the model, we need to understand what kinds of models are used to study markets, technology adoption, and competition.
+
+We will explore different types of models used in economics and technology studies.
+
+Task 1 — Search different types of models
+
+Look for papers using:
+
+* regression / statistical models
+* time series / forecasting
+* diffusion models (Bass model etc.)
+* game theory
+* agent-based models
+* differential equation / Lotka–Volterra / logistic models
+
+Task 2 — For each paper, write summary
+
+Use format:
+
+Paper title:
+Year:
+Problem studied:
+Model used:
+Data used:
+Main result:
+Limitation:
+Future work:
+Relation to our project:
+
+Task 3 — Compare models
+
+For each model, think:
+
+* Can it describe competition?
+* Can it show saturation?
+* Can it show stability?
+* Can it show long-term behavior?
+* Can parameters be interpreted?
+
+Task 4 — Justify our model
+
+Explain why nonlinear competition model is suitable:
+
+Possible reasons:
+
+* system has limited total market
+* two systems compete
+* growth is nonlinear
+* behavior changes over time
+* need equilibrium and stability analysis
+
+Task 5 — Write conclusion
+
+Write short conclusion:
+
+* what models exist
+* what their limitations are
+* why nonlinear dynamical model is needed
+* why our model is suitable for this data
+
+Output of this stage:
+
+* paper summaries
+* comparison of models
+* written justification of chosen model
+

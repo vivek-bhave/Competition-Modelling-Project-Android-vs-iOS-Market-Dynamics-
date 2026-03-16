@@ -1,0 +1,111 @@
+ Data Analysis Guidelines
+
+Goal of this stage:
+
+Before choosing the model, we must understand how the real data behaves.
+This stage helps us check if the system shows saturation, competition, or phase change.
+This is necessary to justify using a nonlinear competition model and piecewise fitting.
+
+We will use Android share = x, iOS share = y.
+
+Task 1 — Plot x(t) and y(t)
+
+What to do:
+Plot Android share vs time and iOS share vs time.
+
+Why this is needed:
+This shows how each system grows or declines over time.
+We need to check if the growth is linear, exponential, or saturating.
+
+What to look for:
+
+* Is Android growing fast at first and then slowing down?
+* Is iOS stable or decreasing?
+* Does the curve flatten later?
+
+What it suggests:
+If growth slows down or becomes stable, logistic / nonlinear model is justified.
+
+Task 2 — Plot total share (x + y)
+
+What to do:
+Compute x + y and plot it vs time.
+
+Why this is needed:
+Our model assumes limited total market (carrying capacity K).
+If total share becomes constant, it means the market is saturated.
+
+What to look for:
+
+* Does x + y increase at first?
+* Does it become nearly constant later?
+* Does it approach a limit?
+
+What it suggests:
+If total share approaches a limit, carrying capacity assumption is valid.
+This justifies using (x + y)/K in the model.
+
+Task 3 — Plot diff(x) and diff(y)
+
+What to do:
+Compute difference between consecutive values:
+dx = diff(x)
+dy = diff(y)
+Plot dx and dy.
+
+Why this is needed:
+This shows how fast the system is changing.
+It helps detect if growth slows down or changes behavior.
+
+What to look for:
+
+* Large changes early, small changes later
+* Change in sign
+* Sudden change in slope
+
+What it suggests:
+If growth decreases over time, system is moving toward stability.
+This suggests nonlinear dynamics and possible phase change.
+
+Task 4 — Detect phase change
+
+What to do:
+Look at all plots together and find if behavior changes after some year.
+
+Why this is needed:
+If the system behaves differently in different periods, one parameter set may not be enough.
+This justifies piecewise fitting.
+
+What to look for:
+
+* Fast growth early, slow later
+* Total share stabilizing later
+* Derivative becoming small later
+
+What it suggests:
+If behavior changes, the system has different phases (regimes).
+This means parameters may change over time.
+
+Task 5 — Write observations
+
+Write short conclusions from graphs.
+
+Include:
+
+* growth is nonlinear
+* saturation exists / does not exist
+* phase change exists / does not exist
+* competition visible
+
+Why this is needed:
+These observations will justify the model choice in the next stage.
+
+Output of this stage:
+
+Each person should give:
+
+* plots
+* short explanation
+* detected phase change (if any)
+* conclusion about system behavior
+

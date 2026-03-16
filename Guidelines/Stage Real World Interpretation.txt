@@ -1,0 +1,67 @@
+Stage — Real-World Interpretation and Relevance
+
+Goal:
+
+Explain what our mathematical results mean in real world.
+We interpret the model in context of technological competition and market behavior.
+
+Task 1 — Interpret market limit
+
+Explain meaning of K.
+
+Check if total share approaches limit.
+
+Interpret as market saturation.
+
+Task 2 — Interpret competition parameters
+
+Explain alpha and beta.
+
+Check which system dominates.
+
+Interpret as competition strength.
+
+Task 3 — Interpret regime shift
+
+Use phase comparison results.
+
+Explain:
+
+* early phase competitive
+* later phase stable
+* dominance appears
+
+Task 4 — Interpret prediction
+
+Explain what prediction shows.
+
+Check if model captures real trend.
+
+Task 5 — Discuss real-world meaning
+
+Possible ideas:
+
+* competition between technologies
+* dominance of one platform
+* stability of market
+* difficulty of change after dominance
+
+Task 6 — Optional societal relevance
+
+Discuss generally:
+
+* competition important in markets
+* dominance may affect innovation
+* understanding dynamics helps analysis
+
+Important:
+
+Do not make strong claims.
+Keep interpretation based on model results.
+
+Output:
+
+* written interpretation
+* connection to real system
+* discussion section
+

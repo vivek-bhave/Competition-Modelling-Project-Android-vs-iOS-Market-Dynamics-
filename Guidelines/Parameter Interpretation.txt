@@ -1,0 +1,69 @@
+ Parameter Interpretation
+
+Goal:
+
+Explain the meaning of model parameters and relate them to real system behavior.
+We compare parameters from phase 1 and phase 2 to understand why the system changes.
+
+Model parameters:
+
+r1, r2 → growth rates
+K → total capacity
+alpha, beta → competition strength
+
+Task 1 — Write parameter values
+
+Write fitted parameters for:
+
+* phase 1
+* phase 2
+
+Task 2 — Interpret r1 and r2
+
+Explain what growth rate means.
+
+Check:
+
+* which phase has larger growth?
+* does growth slow later?
+
+Task 3 — Interpret K
+
+Explain total capacity.
+
+Check:
+
+* does x + y approach K?
+* does market saturate?
+
+Task 4 — Interpret alpha and beta
+
+Explain competition effect.
+
+Check:
+
+* which system dominates?
+* does competition change between phases?
+
+Task 5 — Compare phases
+
+Explain how parameters change.
+
+Connect to regime shift.
+
+Task 6 — Write conclusion
+
+Explain in words:
+
+* early phase growth
+* later phase stability
+* dominance appears
+* competition changes
+
+Output:
+
+* parameter table
+* explanation
+* comparison
+* interpretation
+

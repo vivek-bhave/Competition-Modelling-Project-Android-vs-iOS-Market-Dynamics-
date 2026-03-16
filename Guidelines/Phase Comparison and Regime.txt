@@ -1,0 +1,55 @@
+Phase Comparison and Regime Shift
+
+Goal:
+
+Compare the results of phase 1 and phase 2 to see if the system behavior changes.
+If equilibrium or stability changes, this means the system has a regime shift.
+
+Task 1 — Write parameters
+
+Write fitted parameters for:
+
+* phase 1
+* phase 2
+
+Task 2 — Use equilibrium results
+
+Use equilibrium formulas found earlier.
+
+Check equilibrium for both phases.
+
+Task 3 — Use stability results
+
+Use eigenvalues from stability analysis.
+
+Write which equilibrium is stable in each phase.
+
+Task 4 — Compare phases
+
+Check:
+
+* Is coexistence stable in phase 1?
+* Is monopoly stable in phase 2?
+* Did stability change?
+
+Task 5 — Detect regime shift
+
+If behavior changes, write:
+
+System moves from one regime to another.
+
+Task 6 — Interpretation
+
+Explain meaning in words:
+
+* early phase competitive
+* later phase dominated
+* system becomes stable
+* competition decreases
+
+Output of this stage:
+
+* comparison of phase 1 and phase 2
+* regime shift explanation
+* interpretation of dominance / coexistence
+

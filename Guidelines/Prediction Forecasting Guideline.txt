@@ -1,0 +1,36 @@
+Prediction / Forecasting
+
+Goal:
+
+Check whether the fitted model can predict future behavior of the system.
+
+We will use data from 2016–2020 for fitting and 2021–2025 for prediction.
+
+Steps:
+
+1. Fit parameters using only 2016–2020 data
+
+2. Use fitted parameters to simulate forward until 2025
+
+3. Plot predicted vs real data
+
+4. Compute R² score for Android and iOS
+
+5. Analyze results
+
+Check:
+
+* Is prediction close?
+* Where does error occur?
+* Why prediction may fail?
+
+Important:
+Do not refit using future data.
+Prediction must use only past parameters.
+
+Output:
+
+* prediction plot
+* R² score
+* written interpretation
+

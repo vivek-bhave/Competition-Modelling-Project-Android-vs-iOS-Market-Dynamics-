@@ -1,0 +1,56 @@
+Equilibrium Analysis
+
+Goal:
+
+Find the equilibrium points of the nonlinear competition model.
+Equilibrium means the system stops changing, so dx/dt = 0 and dy/dt = 0.
+
+We first solve the equations in general form, without using data.
+Later we will use parameters from different phases.
+
+Model:
+
+dx/dt = r1 * x * (1 - (x + y)/K) - alpha * x * y
+dy/dt = r2 * y * (1 - (x + y)/K) - beta * x * y
+
+Task 1 — Set derivatives to zero
+
+Set
+
+dx/dt = 0
+dy/dt = 0
+
+Task 2 — Solve equations
+
+Solve the system to find equilibrium points.
+
+Possible types of equilibrium:
+
+* (0,0)
+* (K,0)
+* (0,K)
+* coexistence (x*, y*)
+
+Task 3 — Interpret equilibrium
+
+Explain what each equilibrium means:
+
+* no system
+* monopoly of one
+* coexistence
+* shared market
+
+Task 4 — Prepare for next stage
+
+These equilibrium points will be used later for:
+
+* stability analysis
+* comparison of phases
+* regime shift detection
+
+Output of this stage:
+
+* equilibrium equations
+* solved points
+* explanation of meaning
+
