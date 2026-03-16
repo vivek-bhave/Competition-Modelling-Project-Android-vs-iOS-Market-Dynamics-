@@ -1,0 +1,11 @@
+1.Literature review
+2.Data analysis
+3.Model justification
+4.Parameter fitting
+5.Simulation validation
+6.Prediction
+7.Equilibrium analysis
+8.Stability analysis
+9.Phase comparison & regime shift
+10.Parameter interpretation
+11.Real-world meaning / policy relevance
